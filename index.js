@@ -28,7 +28,9 @@ if(number2>number3){
 let year = 2021
 
 if(year % 4 == 0){
-    console.log("year is leap")
+    console.log(year+"year is leap")
 }else{
-    console.log("Year is not leap")
+    console.log(`${year}Year is not leap`)
 }
+
+
