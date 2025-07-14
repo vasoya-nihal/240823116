@@ -13,3 +13,13 @@ if(num % 2 == 0){
 }else{
     console.log("Number is odd")
 }
+
+// 2
+let number2 = 5;
+let number3 = 7;
+
+if(number2>number3){
+    console.log("Number 2 is greater")
+}else{
+    console.log("Number 3 is geater")
+}
