@@ -23,3 +23,12 @@ if(number2>number3){
 }else{
     console.log("Number 3 is geater")
 }
+
+// 3
+let year = 2021
+
+if(year % 4 == 0){
+    console.log("year is leap")
+}else{
+    console.log("Year is not leap")
+}
