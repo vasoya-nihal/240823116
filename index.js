@@ -63,3 +63,6 @@ for (let i = 1; i <= rows; i++) {
 }
 
 // 7
+let n2=12345;
+let result1=n2.toString().split('').reverse().join('');
+console.log(result1)
