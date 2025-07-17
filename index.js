@@ -43,4 +43,23 @@ for (let i =1;i<=n;i++){
 console.log(`Sum of first ${n} natural number is ${sum}`)
 
 // 5
-// let
+
+let n1 = 5;
+let result = 1;
+
+for (let i = 1; i <= n1; i++) {
+  result *= i;
+}
+
+console.log(result);
+
+
+// 6
+
+let number = 5; 
+let rows = 10;  
+for (let i = 1; i <= rows; i++) {
+  console.log(number + " x " + i + " = " + (number * i));
+}
+
+// 7
