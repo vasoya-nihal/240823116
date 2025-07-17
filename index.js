@@ -66,3 +66,32 @@ for (let i = 1; i <= rows; i++) {
 let n2=12345;
 let result1=n2.toString().split('').reverse().join('');
 console.log(result1)
+
+// 8
+let num3 = 121;
+let reversed = num3.toString().split('').reverse().join('');
+
+if (num3 == reversed) {
+  console.log(`${num3} is Palindrome`);
+} else {
+  console.log(`${num3} is Not palindrome`);
+}
+
+// 9
+let num4 = 7;
+let prime = num4 > 1;
+
+for (let i = 2; i < num4; i++) {
+  if (num4 % i === 0) {
+    prime = false;
+    break;
+  }
+}
+
+console.log(prime ? "Prime" : "Not prime");
+
+// 10
+let num5 = 12345;
+let count = num5.toString().length;
+
+console.log("Digits:", count);
