@@ -98,3 +98,19 @@ console.log("Digits:", count);
 
 
 // 11
+function sumOfDigits(n12) {
+  // Convert number to string
+  let s = n12.toString();
+  let sum = 0;
+
+  // Loop through each character, convert to digit, and add to sum
+  for (let ch of s) {
+      sum += parseInt(ch);
+  }
+
+  return sum;
+}
+
+// Driver Code
+var n12 = 12345;
+console.log(sumOfDigits(n12));
