@@ -95,3 +95,6 @@ let num5 = 12345;
 let count = num5.toString().length;
 
 console.log("Digits:", count);
+
+
+// 11
